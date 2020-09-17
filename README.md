@@ -53,7 +53,8 @@ liberando espacio para poder levantar nuevos.
  
 ## Saber la historia de los encuentros con los artefactos.
  
- Se desea saber el orden en que rolando fue encontrandose los artefactos, independientemente de si los agarró o no.
+ Se desea saber el orden en que rolando fue encontrandose los artefactos, 
+ independientemente de si los agarró o no.
  
 ### Ejemplo:
  
