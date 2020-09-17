@@ -1,0 +1,27 @@
+import wollok.game.*
+import capos.*
+
+program capos {
+
+	game.cellSize(120)
+	game.height(12)
+	game.width(10)
+	game.boardGround("fondo.png")
+	
+	game.addVisual(castillo)
+	game.addVisualCharacter(rolando)
+	game.addVisual(collar)
+	game.addVisual(espada)
+	game.addVisual(libro)
+	game.addVisual(armadura)
+
+	keyboard.space().onPressDo{rolando.volverACasa()}
+
+	game.onCollideDo(castillo, {alguien => alguien.volverACasa() })
+	game.onCollideDo(collar, {alguien => alguien.encontrar(collar) })
+	game.onCollideDo(armadura, {alguien => alguien.encontrar(armadura) })
+	game.onCollideDo(espada, {alguien => alguien.encontrar(espada) })
+	game.onCollideDo(libro, {alguien => alguien.encontrar(libro) })
+	
+	game.start()
+}

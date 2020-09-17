@@ -73,6 +73,9 @@ Si consultamos la historia de encuentro con los artefactos debería ser:
  5. collar divino (de nuevo!)
  
  
+ ## Wollok game 
+
+imagenes libres de [https://www.flaticon.es]
 
 
   

@@ -35,7 +35,7 @@ test "castillo" {
  	
 }
 
-test "poseciones" {
+test "posesiones" {
 	//Si el castillo tiene el collar, la espada. Rolando tiene la armadura. 
 	//Entonces rolando posee el collar, la espada y la armadura.
 	//El libro no lo posee.
@@ -43,7 +43,7 @@ test "poseciones" {
 	castillo.agregarArtefactos(#{collar, espada})
 	
 	rolando.encontrar(armadura)
-	assert.equals(#{collar, armadura, espada}, rolando.poseciones())
+	assert.equals(#{collar, armadura, espada}, rolando.posesiones())
 	assert.that(rolando.posee(armadura))
 	assert.notThat(rolando.posee(libro))
 	
